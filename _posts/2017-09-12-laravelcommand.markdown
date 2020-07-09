@@ -7,7 +7,7 @@ img: software.jpg # Add image post (optional)
 tags: [Laravel, PHP] # add tag
 ---
 ## Create Project Laravel
-<div class="ml-4">
+<div style="margin-left:5%;">
 You can create Project Laravel by 2 ways:
 
 <p style="color:#F62217">1: Create by Composer command</p>
