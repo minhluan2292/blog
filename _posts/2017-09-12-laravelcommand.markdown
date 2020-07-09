@@ -9,11 +9,15 @@ tags: [Laravel, PHP] # add tag
 ## Create Project Laravel
 
 You can create Project Laravel by 2 ways:
-1: Create by Laravel installer
+1: Create by Composer command
+>composer create-project --prefer-dist laravel/laravel blog
+
+If error, maybe you didn't install composer, you can install Composer at: <a href="https://getcomposer.org/download/">Composer</a>
+
+2: Create by Laravel installer
 <p style="color:#F62217">1. Install Laravel installer</p>
 
 >composer global require laravel/installer
 
-If error, maybe you didn't install composer, you can install Composer at: <a href="https://getcomposer.org/download/">Composer</a>
 After install Laravel installer, you can create project Laravel with:
->>laravel new projectName
+>laravel new projectName>
