@@ -11,6 +11,7 @@ tags: [Laravel, PHP] # add tag
 1/ Install Laravel installer
 
 >composer global require laravel/installer
+<strong>a</strong>
 
 
 
