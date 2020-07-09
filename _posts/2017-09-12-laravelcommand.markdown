@@ -31,7 +31,7 @@ You can create project Laravel with:
 
 If you want run on different port
 
->php artisan serve --port=999
+>php artisan serve  - -port=999
 
 ## Some command useful if error
 
