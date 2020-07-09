@@ -12,7 +12,16 @@ tags: [Laravel, PHP] # add tag
 
 >composer global require laravel/installer
 
-<div class="container">
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">At Your Service</h2>
+                <hr class="primary">
+            </div>
+        </div>
+    </div>
+    <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
@@ -44,5 +53,6 @@ tags: [Laravel, PHP] # add tag
             </div>
         </div>
     </div>
+</section>
 
 
