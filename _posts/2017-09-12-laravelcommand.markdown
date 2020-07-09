@@ -6,10 +6,14 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: software.jpg # Add image post (optional)
 tags: [Laravel, PHP] # add tag
 ---
-### Create Project Laravel
+## Create Project Laravel
 
+You can create Project Laravel by 2 ways:
+1: Create by Laravel installer
 <p style="color:#F62217">1. Install Laravel installer</p>
 
 >composer global require laravel/installer
 
-# If error
+If error, maybe you didn't install composer, you can install Composer at: <a href="https://getcomposer.org/download/">Composer</a>
+After install Laravel installer, you can create project Laravel with:
+>>laravel new projectName
