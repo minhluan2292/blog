@@ -12,9 +12,9 @@ You can create Project Laravel by 2 ways:
 
 <p style="color:#F62217">1: Create by Composer command</p>
 
->composer create-project --prefer-dist laravel/laravel blog
+>composer create-project --prefer-dist laravel/laravel projectName
 
-If error, maybe you didn't install composer, you can install Composer at: <a href="https://getcomposer.org/download/">Composer</a>
+If error, maybe you didn't install Composer, you can install Composer at: <a href="https://getcomposer.org/download/">Composer</a>
 
 <p style="color:#F62217">2: Create by Laravel installer</p>
 
@@ -25,3 +25,22 @@ If you want to create project by Laravel installer you ought to install it by:
 You can create project Laravel with:
 
 >laravel new projectName
+
+## Run Project
+
+>php artisan serve
+
+If you want run on different port
+
+>php artisan serve --port=999
+
+## Some command useful if error
+
+>npm install
+>npm update
+>composer install
+>composer update
+
+Remember you did cd to path of your project
+
+
