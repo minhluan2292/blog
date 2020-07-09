@@ -6,12 +6,101 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: how-to-start.jpg # Add image post (optional)
 tags: [Server, Ubuntu, Linux, Laravel] # add tag
 ---
-Post-ironic jean shorts bushwick umami, synth beard austin hell of meh kitsch distillery sustainable plaid bitters. Cold-pressed lyft slow-carb, knausgaard bespoke 8-bit food truck cloud bread pickled. Taiyaki bitters trust fund heirloom craft beer single-origin coffee. Readymade fam vape blue bottle cold-pressed, flannel polaroid. Aesthetic four dollar toast semiotics af bicycle rights. Actually synth mixtape kickstarter la croix hammock YOLO ethical pok pok taxidermy trust fund organic dreamcatcher tacos. Franzen four loko man braid letterpress umami offal. Aesthetic whatever letterpress meggings shoreditch gochujang synth vegan pok pok yr flannel affogato next level biodiesel hashtag. Banjo vaporware lyft unicorn tumblr. Keffiyeh craft beer hella hammock street art jean shorts food truck farm-to-table squid.
+Cài đặt Apache
+Sau khi có VPS chúng cần cài đặt môi trường Apache(các bạn cũng có thể dùng Nginx).
 
->Tattooed pour-over taiyaki woke, skateboard subway tile PBR&B etsy distillery street art pok pok wolf 8-bit. Vegan bicycle rights schlitz subway tile unicorn taiyaki.
+Update: 
+> apt-get update
 
-Meditation literally adaptogen locavore raclette artisan polaroid occupy sriracha bitters gochujang kale chips mixtape. Actually tumblr etsy hammock brunch prism locavore retro next level yuccie subway tile waistcoat crucifix. Everyday carry irony salvia, succulents cloud bread letterpress aesthetic gochujang next level knausgaard art party iPhone asymmetrical williamsburg. Iceland slow-carb knausgaard narwhal skateboard kitsch fashion axe. Man bun celiac street art, cliche PBR&B lomo blue bottle beard bitters. Mlkshk occupy offal dreamcatcher. Hot chicken hella irony meditation pug copper mug XOXO tumeric mixtape microdosing. Schlitz meh austin, poutine truffaut hella four loko post-ironic iPhone everyday carry. Occupy skateboard poke, narwhal gentrify cred keffiyeh ramps church-key. Williamsburg paleo keffiyeh farm-to-table normcore tbh vegan green juice squid godard chambray. DIY organic letterpress, venmo salvia crucifix gluten-free. Yr celiac tbh selfies activated charcoal.
+Cài đặt Apache: apt-get install apache2
 
-Adaptogen retro 8-bit mlkshk echo park hammock godard venmo flannel tilde umami enamel pin trust fund single-origin coffee etsy. Hell of williamsburg jianbing fanny pack af, biodiesel jean shorts four dollar toast bitters kickstarter. DIY edison bulb keffiyeh raclette. Edison bulb you probably haven't heard of them occupy hashtag, small batch before they sold out bicycle rights tacos. IPhone selfies banh mi sartorial, typewriter seitan plaid. Fanny pack williamsburg gentrify plaid hoodie. Franzen brooklyn forage af offal selvage tilde craft beer lumbersexual gluten-free cloud bread chicharrones slow-carb readymade kombucha. Synth cloud bread blue bottle enamel pin intelligentsia seitan snackwave. Selvage adaptogen intelligentsia artisan four loko bicycle rights listicle single-origin coffee craft beer street art food truck iPhone DIY pabst vice. Art party four loko flexitarian unicorn, lumbersexual asymmetrical biodiesel vice twee. Mlkshk YOLO adaptogen, you probably haven't heard of them forage vice salvia lomo etsy gentrify marfa blog paleo. Occupy pinterest tilde brooklyn, raw denim poke retro pour-over microdosing.
+Sau khi cài đặt bạn có thể start và enable Apache bằng cách:
 
-Skateboard keytar actually disrupt taiyaki, synth biodiesel. Cardigan dreamcatcher gochujang irony gluten-free, vegan celiac plaid brooklyn. Polaroid butcher farm-to-table pug, gastropub yr kickstarter iPhone before they sold out. Marfa cornhole migas hashtag flannel fashion axe deep v kogi. Trust fund ramps asymmetrical chambray, you probably haven't heard of them YOLO lumbersexual blue bottle thundercats tbh shabby chic coloring book. Kickstarter ugh try-hard four dollar toast master cleanse. Semiotics bespoke art party twee roof party cardigan. Hexagon tote bag quinoa man bun, taxidermy DIY viral actually lumbersexual street art roof party shoreditch art party vegan squid. Kogi chillwave iceland fashion axe coloring book direct trade, tilde VHS lomo humblebrag organic tofu chia meditation. Hella keytar shabby chic 90's taxidermy tacos marfa. Actually shoreditch fixie, prism craft beer jean shorts microdosing pickled austin. Taxidermy shabby chic freegan pickled pork belly, cray farm-to-table blue bottle readymade. 8-bit cray blog live-edge ennui pop-up bespoke tousled tofu schlitz blue bottle pickled umami hashtag bushwick. Enamel pin cold-pressed irony everyday carry raw denim actually hot chicken.
+>systemctl start apache2
+
+>systemctl enable apache2
+ 
+>Cài đặt PHP
+
+Thêm PHP vào khi PPA:
+
+>add-apt-repository ppa:ondrej/php
+
+Update:
+
+>apt-get update
+
+Chạy lệnh sau để cài PHP 7.2 và các extension cần thiết:
+
+>apt install php7.2 php7.2-xml php7.2-mbstring php7.2-mysql php7.2-json php7.2-curl php7.2-cli php7.2-common php7.1-mcrypt php7.2-gd libapache2-mod-php7.2 php7.2-zip
+
+Cài đặt Composer và install Laravel
+Composer
+
+>curl -sS https://getcomposer.org/installer | php
+
+>mv composer.phar /usr/bin/composer
+
+Install Laravel
+
+Các bạn dùng composer để cài hoặc có thể dùng Git để clone source code vào đường dẫn: /var/www/html
+
+composer create-project laravel/laravel /var/www/html/laravel
+
+Cài đặt DocumentRoot
+Mở file config của Apache:
+
+nano /etc/apache2/sites-available/000-default.conf
+
+Tìm dòng sau:
+
+DocumentRoot /var/www/html
+
+Thay thế bằng:
+
+DocumentRoot /var/www/html/laravel/public
+
+Sau đó lưu lại rồi restart lại Apache nhé:
+
+>systemctl restart apache2
+
+Chỉnh Permission cho project:
+
+>chown -R www-data:www-data /var/www/html/laravel
+
+>chmod -R 755 /var/www/html/laravel/storage
+
+Cài MySQL
+
+Chạy lệnh sau:
+
+>apt-get install mysql-server
+
+Sau đó nhập password:
+
+
+
+Đăng nhập MySQL với password ở trên:
+
+mysql -u root -p
+
+
+Thêm database bằng query sau:
+
+CREATE DATABASE laravel_test;
+
+
+Cấu hình .env cho project để connect MySQL:
+Sửa file bằng cách:
+
+nano /var/www/html/laravel/.env
+
+Sau đó cấu hình giống như dưới local:
+
+
+
+Tận hưởng:
+Truy cập và tận hưởng bằng cách truy cập vào: IP của VPS
+
+Kết thúc
+Trên đây là toàn bộ các bước để deploy project Laravel lên VPS dùng hệ điều hành Ubuntu. Bài viết có gì sai sót mong mọi người bỏ quá cho
