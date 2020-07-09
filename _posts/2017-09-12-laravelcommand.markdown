@@ -7,7 +7,7 @@ img: software.jpg # Add image post (optional)
 tags: [Laravel, PHP] # add tag
 ---
 ## Create Project Laravel
-
+<div class="ml-4">
 You can create Project Laravel by 2 ways:
 
 <p style="color:#F62217">1: Create by Composer command</p>
@@ -25,7 +25,7 @@ If you want to create project by Laravel installer you ought to install it by:
 You can create project Laravel with:
 
 >laravel new projectName
-
+</div>
 ## Run Project
 
 >php artisan serve
@@ -37,8 +37,9 @@ If you want run on different port
 ## Some command useful if error
 
 >npm install
->npm update
+
 >composer install
+
 >composer update
 
 Remember you did cd to path of your project
