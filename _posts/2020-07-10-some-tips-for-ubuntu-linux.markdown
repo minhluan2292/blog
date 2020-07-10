@@ -15,14 +15,13 @@ Change to account admin (if your account have permission admin)
 >sudo passwd root
 
 Install nano edit
-
 >yum install nano zip unzip -y
 
 Enable root login over SSH:
-
 >nano /etc/ssh/sshd_config
 Add a line in the Authentication section of the file that says PermitRootLogin yes and delete #
 
+Restart the SSH server
 >service sshd restart
 
 ## Change Timezone in Ubuntu
