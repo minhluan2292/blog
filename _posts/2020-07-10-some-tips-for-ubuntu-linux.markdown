@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Some Tips For Ubuntu (Linux)
-date: 2017-09-12 08:54:00 +0700
+date: 2020-07-10 08:54:00 +0700
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: workflow.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
