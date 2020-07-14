@@ -7,3 +7,9 @@ img: github.svg #### Add image post (optional)
 fig-caption: #### Add figcaption (optional)
 tags: [CronJob, Laravel, Autotask, Autorun, Task Scheduling]
 ---
+
+1. Create command
+>php artisan make:command NameCommand
+
+One command will create at <strong>app/Console/Commands</strong>
+
