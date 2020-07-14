@@ -6,7 +6,18 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: how-to-start.jpg # Add image post (optional)
 tags: [Server, Ubuntu, Linux, Laravel] # add tag
 ---
-Cài đặt Apache
+## ERROR
+### If you access only your homepage and can't access to pages other (pages remaining). You run:
+>nano /etc/apache2/apache2.conf 
+Find in bellow (pull it down because there's a lot left), changes  <strong>AllowOverride None</strong> => <strong>Set AllowOverride All</strong>
+
+Then run:
+>service apache2 restart
+
+![Error 1]({{site.baseurl}}/assets/img/ubuntu_laravel_2.jpg)
+
+
+## Cài đặt Apache
 Sau khi có VPS chúng cần cài đặt môi trường Apache(các bạn cũng có thể dùng Nginx).
 
 Update: 
@@ -96,13 +107,12 @@ CREATE DATABASE laravel_test;
 
 
 Cấu hình .env cho project để connect MySQL:
+
 Sửa file bằng cách:
 
 nano /var/www/html/laravel/.env
 
 Sau đó cấu hình giống như dưới local:
-
-
 
 Tận hưởng:
 Truy cập và tận hưởng bằng cách truy cập vào: IP của VPS
