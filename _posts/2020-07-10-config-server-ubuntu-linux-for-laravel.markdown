@@ -18,6 +18,9 @@ Sau khi cài đặt bạn có thể start và enable Apache bằng cách:
 
 >systemctl start apache2
 
+If you don't have admin role, you use <strong>sudo</strong> before command, example:
+>sudo systemctl start apache2
+
 >systemctl enable apache2
  
 >Cài đặt PHP
@@ -59,6 +62,8 @@ DocumentRoot /var/www/html
 Thay thế bằng:
 
 DocumentRoot /var/www/html/laravel/public
+
+![Example]({{site.baseurl}}/assets/img/ubuntu_laravel_1.jpg)
 
 Sau đó lưu lại rồi restart lại Apache nhé:
 
