@@ -9,6 +9,7 @@ tags: [Server, Ubuntu, Linux, Laravel] # add tag
 ## ERROR
 ### If you access only your homepage and can't access to pages other (pages remaining). You run:
 >nano /etc/apache2/apache2.conf 
+
 Find in bellow (pull it down because there's a lot left), changes  <strong>AllowOverride None</strong> => <strong>Set AllowOverride All</strong>
 
 Then run:
