@@ -9,11 +9,11 @@ tags: [Github]
 ---
 ### GITHUB
 
-[0:00] Overview Nội Dung trong Video này 👋 👋 
-[1:10] Git và GitHub — Liệu bạn đã thật sự biết cách sử dụng?
+# Git và GitHub — Liệu bạn đã thật sự biết cách sử dụng?
 Git là một trong những Hệ thống Quản lý Phiên bản Phân tán, vốn được phát triển nhằm quản lý mã nguồn (source code) hữu hiệu của Linux.
 GitHub cũng là một nền tảng lưu trữ online lớn nhất trên thế giới về các dự án nhiều người làm.
-[1:20] Sơ lược về Local Repository và Remote Repository
+
+# Sơ lược về Local Repository và Remote Repository
 Repository là nơi sẽ ghi lại trạng thái của thư mục và file.  Bằng việc đặt thư mục muốn quản lý lịch sử thay đổi dưới sự quản lý của repository, có thể ghi chép lại lịch sử thay đổi của thư mục và file trong thư mục đó.
 
 Repository:
@@ -21,7 +21,7 @@ Repository:
 {Remote Repository}: Là repository để chia sẻ giữa nhiều người và bố trí trên server chuyên dụng.
 {Local Repository}: Là repository bố trí trên máy của bản thân mình, dành cho một người dùng sử dụng.
 
-[2:00] Cài Đặt Git và Các Thiết Lập Ban Đầu
+# Cài Đặt Git và Các Thiết Lập Ban Đầu
 {Step 1} Cài Đặt Git trên máy tính, Laptop của các bạn:
 Cài Git vào Mac OS: Đối với Mac, bạn có thể sử dụng file installer tải tại địa chỉ http://git-scm.com/download/mac để cài đặt.
 Cài Git vào Windows: Nếu bạn dùng Windows thì có thể tải file .exe cài đặt Git tại địa chỉ http://git-scm.com/download/win. Khi cài bạn có thể để nguyên tùy chọn mặc định mà không cần tùy chỉnh gì thêm nếu bạn chưa hiểu về nó.
