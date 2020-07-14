@@ -18,3 +18,7 @@ tags: [Web, Useful]
 ## Web beauty
 
 * https://go.pioneer.com/cornrevolution
+
+## Ebook
+
+* https://drive.google.com/file/d/1za4YPB-cL74MO_7xqTLoYIe0KctEzLQb/view
