@@ -2,18 +2,16 @@
 layout: post
 title: GITHUB
 date: 2020-07-14 10:12:20 +0700
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: i-rest.jpg # Add image post (optional)
-fig-caption: # Add figcaption (optional)
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. #### Add post description (optional)
+img: i-rest.jpg #### Add image post (optional)
+fig-caption: #### Add figcaption (optional)
 tags: [Github]
 ---
-### GITHUB
-
-# Git và GitHub — Liệu bạn đã thật sự biết cách sử dụng?
+#### Git và GitHub — Liệu bạn đã thật sự biết cách sử dụng?
 Git là một trong những Hệ thống Quản lý Phiên bản Phân tán, vốn được phát triển nhằm quản lý mã nguồn (source code) hữu hiệu của Linux.
 GitHub cũng là một nền tảng lưu trữ online lớn nhất trên thế giới về các dự án nhiều người làm.
 
-# Sơ lược về Local Repository và Remote Repository
+#### Sơ lược về Local Repository và Remote Repository
 Repository là nơi sẽ ghi lại trạng thái của thư mục và file.  Bằng việc đặt thư mục muốn quản lý lịch sử thay đổi dưới sự quản lý của repository, có thể ghi chép lại lịch sử thay đổi của thư mục và file trong thư mục đó.
 
 Repository:
@@ -21,7 +19,7 @@ Repository:
 {Remote Repository}: Là repository để chia sẻ giữa nhiều người và bố trí trên server chuyên dụng.
 {Local Repository}: Là repository bố trí trên máy của bản thân mình, dành cho một người dùng sử dụng.
 
-# Cài Đặt Git và Các Thiết Lập Ban Đầu
+#### Cài Đặt Git và Các Thiết Lập Ban Đầu
 {Step 1} Cài Đặt Git trên máy tính, Laptop của các bạn:
 Cài Git vào Mac OS: Đối với Mac, bạn có thể sử dụng file installer tải tại địa chỉ http://git-scm.com/download/mac để cài đặt.
 Cài Git vào Windows: Nếu bạn dùng Windows thì có thể tải file .exe cài đặt Git tại địa chỉ http://git-scm.com/download/win. Khi cài bạn có thể để nguyên tùy chọn mặc định mà không cần tùy chỉnh gì thêm nếu bạn chưa hiểu về nó.
@@ -33,45 +31,45 @@ $ git config --global user.email "contact@thachpham.com"
 Sau khi thiết lập xong, bạn có thể kiểm tra thông tin chứng thực trên user của bạn bằng cách xem tập tin
 $ git config --list
 
-# Hướng dẫn cách tạo một Local Repo (Kho Chứa Code trên Máy Tính cá nhân)
+#### Hướng dẫn cách tạo một Local Repo (Kho Chứa Code trên Máy Tính cá nhân)
 [Lệnh Git 1] Tạo Local Repo:
 $ git init
 $ git remote add origin [GitHub_Repo_URL]
 
-# Clone một remote repository
+#### Clone một remote repository
 [Lệnh Git 2] Clone (Tải) một Remote Repo về Local PC:
 $  git clone [GitHub_Repo_URL] 
 
-# Git Workflow (Qui Trình Xử Lý trên Git)
+#### Git Workflow (Qui Trình Xử Lý trên Git)
 Staging Area là gì?
 Staging Area nghĩa là một khu vực mà nó sẽ được chuẩn bị cho quá trình commit, nghĩa là khu vực sẽ lưu trữ những thay đổi của bạn trên tập tin để nó có thể được commit, vì muốn commit tập tin nào thì tập tin đó phải nằm trong Staging Area. 
 Commit nghĩa là một hành động để Git lưu lại một bản chụp (snapshot) của các sự thay đổi trong thư mục làm việc, và các tập tin và thư mục được thay đổi đã phải nằm trong Staging Area
 
-# Cùng tìm hiểu về Lệnh Git add nhé mọi người!
+#### Cùng tìm hiểu về Lệnh Git add nhé mọi người!
 [Lệnh Git 3] $ git add
 
-# Cùng tìm hiểu về Lệnh Git commit nhé mọi người!
+#### Cùng tìm hiểu về Lệnh Git commit nhé mọi người!
 [Lệnh Git 4] $ git commit –m “descriptive message” 
 
-# Cùng tìm hiểu về Lệnh Git push nhé mọi người!
+#### Cùng tìm hiểu về Lệnh Git push nhé mọi người!
 [Lệnh Git 5] $ git push origin [branch-name]
 
-# Cùng tìm hiểu về Lệnh Git push nhé mọi người!
+#### Cùng tìm hiểu về Lệnh Git push nhé mọi người!
 [Lệnh Git 6] $ git status
 
-# Cùng tìm hiểu về Lệnh Git diff nhé mọi người!
+#### Cùng tìm hiểu về Lệnh Git diff nhé mọi người!
 [Lệnh Git 7] $ git diff
 
-# Cùng tìm hiểu về Lệnh Git log nhé mọi người!
+#### Cùng tìm hiểu về Lệnh Git log nhé mọi người!
 [Lệnh Git 8] $ git log
 
-# Cùng tìm hiểu về Lệnh Git reset nhé mọi người!
+#### Cùng tìm hiểu về Lệnh Git reset nhé mọi người!
 [Lệnh Git 9] $ git reset
 
-# Hướng Dẫn Cách Clone một Github Repository
+#### Hướng Dẫn Cách Clone một Github Repository
 Để sao chép remote repository, sẽ thực hiện thao tác gọi là "clone".
 
 Khi thực hiện Clone, sẽ tải về toàn bộ nội dung của remote repository, và có thể tạo thành local repository ở máy khác.
 
-# Cùng tìm hiểu về Lệnh Git fetch và Git pull nhé mọi người!
+#### Cùng tìm hiểu về Lệnh Git fetch và Git pull nhé mọi người!
 [Lệnh Git 10] $ git fetch & git pull
