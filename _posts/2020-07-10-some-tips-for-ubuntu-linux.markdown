@@ -34,7 +34,8 @@ Restart the SSH server
     >ls /usr/share/zoneinfo/Asia
 4. When you see timezone you want to change, you can change by command: 
     >cp /usr/share/zoneinfo/Asia/Ho_Chi_Minh  /etc/localtime
-5. Check again by command #date
+5. Check again by command 
+    >date
 6. Sync time with internet by <strong>btpdate</strong>
  - Install ntp:
     >yum install -y ntp
