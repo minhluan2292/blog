@@ -13,8 +13,6 @@ tags: [Web, Useful]
 * https://www.30secondsofcode.org/
 * https://www.codingame.com/home
 
-![I and My friends]({{site.baseurl}}/assets/img/we-in-rest.jpg)
-
 ## Web beauty
 
 * https://go.pioneer.com/cornrevolution
@@ -22,3 +20,7 @@ tags: [Web, Useful]
 ## Ebook
 
 * https://drive.google.com/file/d/1za4YPB-cL74MO_7xqTLoYIe0KctEzLQb/view
+
+
+![I and My friends]({{site.baseurl}}/assets/img/we-in-rest.jpg)
+
