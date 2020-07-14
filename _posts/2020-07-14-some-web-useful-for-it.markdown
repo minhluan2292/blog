@@ -8,17 +8,13 @@ fig-caption: # Add figcaption (optional)
 tags: [Web, Useful]
 ---
 
-## Plaid ramps kitsch woke pork belly
+## Web useful
+
 * https://www.30secondsofcode.org/
+* https://www.codingame.com/home
 
 ![I and My friends]({{site.baseurl}}/assets/img/we-in-rest.jpg)
 
+## Web beauty
 
-
->Hexagon shoreditch beard, man braid blue bottle green juice thundercats viral migas next level ugh. Artisan glossier yuccie, direct trade photo booth pabst pop-up pug schlitz.
-
-
-* Hexagon shoreditch beard
-* Intelligentsia narwhal austin
-* Literally meditation four
-* Microdosing hoodie woke
+* https://go.pioneer.com/cornrevolution
