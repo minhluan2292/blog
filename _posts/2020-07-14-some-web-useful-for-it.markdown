@@ -122,41 +122,41 @@ Explore big ideas that shape knowledge in the 21st century
 
 ## Best Magic Film 
 
-1) Wizard of Oz (1939) - Phù Thuỷ Xứ Oz
-2) The Lord of the Rings (2001-2003) - Chúa Tể Những Chiếc Nhẫn
-3) Alice in Wonderland (2010) - Alice Ở Xứ Sở Thần Tiên
-4) Harry Potter (2001–2011)
-5) The Hobbit (2012–2014)
-6) The Princess Bride (1987) - Cô Dâu Công Chúa
-7) Cinderella (2013) - Lọ Lem
-😎 Prince of Persia (2010) - Hoàng Tử Ba Tư
-9) Time Bandits (1981)
-10) The BFG (2016) - Chuyện Chưa Kể Ở Xứ Sở Khổng Lồ
-11) Constantine (2005) - Người Đến Từ Địa Ngục
-12) Hellboy (2004) - Quỷ Đỏ
-13) Pan's Labyrinth (2006) - Mê Cung Thần Nông
-14) Beauty and the Beast (2017) - Người Đẹp Và Quái Vật
-15) Charmed (1998–2006) - Phép Thuật
-16) Fantastic Beasts and Where to Find Them (2016) - Sinh Vật Huyền Bí Và Nơi Tìm Ra Chúng
-17) Snow White and the Huntsman (2012) - Bạch Tuyết Và Gã Thợ Săn
-18) Maleficent (2014) - Tiên Hắc Ám
-19) Stardust (2007) - Ánh Sao Ma Thuật
-20) Charlie and the Chocolate Factory (2005) - Charlie Và Nhà Máy So Cô La
-21) Miss Peregrine's Home for Peculiar Children (2016) - Mái Ấm Lạ Kỳ Của Cô Peregrine
-22) Pirates of the Caribbean (2003–2017) - Cướp Biển Vùng Caribbean
-23) Mary Poppins (1964 và 2018)
-24) Bridge to Terabithia (2007) - Đường Đến Xứ Sở Thần Tiên
-25) Percy Jackson and the Lightning Thief (2010) - Percy Jackson Và Kẻ Cắp Tia Chớp
-26) Doctor Strange (2016) - Phù Thuỷ Tối Thượng
-27) Christopher Robin (2018)
-28) Merlin (1998) - Đệ Nhất Pháp Sư
-29) The Neverending Story (1984) - Chuyện Dài Bất Tận
-30) Aladdin (2019)
-31) The Craft (1996) - Phù Thủy Học Đường
-32) Hocus Pocus (1994) - Ma Lang Thang
-33) The Chronicles of Narnia (2005–2010) - Biên Niên Sử Narnia
-34) Sabrina (1996) - Cô Phù Thủy Nhỏ
-35) Chilling Adventures of Sabrina (2018) - Những Cuộc Phiêu Lưu Rùng Rợn Của Sabrin
+1. Wizard of Oz (1939) - Phù Thuỷ Xứ Oz
+2. The Lord of the Rings (2001-2003) - Chúa Tể Những Chiếc Nhẫn
+3. Alice in Wonderland (2010) - Alice Ở Xứ Sở Thần Tiên
+4. Harry Potter (2001–2011)
+5. The Hobbit (2012–2014)
+6. The Princess Bride (1987) - Cô Dâu Công Chúa
+7. Cinderella (2013) - Lọ Lem
+8. Prince of Persia (2010) - Hoàng Tử Ba Tư
+9. Time Bandits (1981)
+10. The BFG (2016) - Chuyện Chưa Kể Ở Xứ Sở Khổng Lồ
+11. Constantine (2005) - Người Đến Từ Địa Ngục
+12. Hellboy (2004) - Quỷ Đỏ
+13. Pan's Labyrinth (2006) - Mê Cung Thần Nông
+14. Beauty and the Beast (2017) - Người Đẹp Và Quái Vật
+15. Charmed (1998–2006) - Phép Thuật
+16. Fantastic Beasts and Where to Find Them (2016) - Sinh Vật Huyền Bí Và Nơi Tìm Ra Chúng
+17. Snow White and the Huntsman (2012) - Bạch Tuyết Và Gã Thợ Săn
+18. Maleficent (2014) - Tiên Hắc Ám
+19. Stardust (2007) - Ánh Sao Ma Thuật
+20. Charlie and the Chocolate Factory (2005) - Charlie Và Nhà Máy So Cô La
+21. Miss Peregrine's Home for Peculiar Children (2016) - Mái Ấm Lạ Kỳ Của Cô Peregrine
+22. Pirates of the Caribbean (2003–2017) - Cướp Biển Vùng Caribbean
+23. Mary Poppins (1964 và 2018)
+24. Bridge to Terabithia (2007) - Đường Đến Xứ Sở Thần Tiên
+25. Percy Jackson and the Lightning Thief (2010) - Percy Jackson Và Kẻ Cắp Tia Chớp
+26. Doctor Strange (2016) - Phù Thuỷ Tối Thượng
+27. Christopher Robin (2018)
+28. Merlin (1998) - Đệ Nhất Pháp Sư
+29. The Neverending Story (1984) - Chuyện Dài Bất Tận
+30. Aladdin (2019)
+31. The Craft (1996) - Phù Thủy Học Đường
+32. Hocus Pocus (1994) - Ma Lang Thang
+33. The Chronicles of Narnia (2005–2010) - Biên Niên Sử Narnia
+34. Sabrina (1996) - Cô Phù Thủy Nhỏ
+35. Chilling Adventures of Sabrina (2018) - Những Cuộc Phiêu Lưu Rùng Rợn Của Sabrin
 
 
 ![I and My friends]({{site.baseurl}}/assets/img/we-in-rest.jpg)
