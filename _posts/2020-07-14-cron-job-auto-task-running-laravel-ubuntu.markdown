@@ -37,6 +37,9 @@ And you add as image:
 
 ![Cronjob 4]({{site.baseurl}}/assets/img/cronjob4.jpg)
 
+OR:
+>* * * * * cd /path-to-your-project && php artisan schedule:run >> /dev/null 2>&1
+
 Finish :D
 
 
