@@ -7,6 +7,23 @@ img: github.svg #### Add image post (optional)
 fig-caption: #### Add figcaption (optional)
 tags: [Github]
 ---
+## GITHUB UBUNTU
+1. Install Git
+>apt-get install git-core
+2. Confirm Git the installation
+>git --version
+3. Configure Git’s settings (for the root user)
+>git config --global user.name "testuser"
+>git config --global user.email "testuser@example.com"
+4. See details using Git
+>git config
+5. Create SSH Keygen to add in Github
+>ssh-keygen -t rsa -b 4096 -C "yourmail@gmail.com"
+
+After that you will give the name of key to save. When saved, you find that file, use nano to read and copy and paste it in github in order to pull or push your project
+
+
+
 #### Git và GitHub — Liệu bạn đã thật sự biết cách sử dụng?
 Git là một trong những Hệ thống Quản lý Phiên bản Phân tán, vốn được phát triển nhằm quản lý mã nguồn (source code) hữu hiệu của Linux.
 GitHub cũng là một nền tảng lưu trữ online lớn nhất trên thế giới về các dự án nhiều người làm.
