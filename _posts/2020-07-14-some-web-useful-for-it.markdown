@@ -13,6 +13,10 @@ tags: [Web, Useful]
 * https://www.30secondsofcode.org/
 * https://www.codingame.com/home
 
+## Link great post 
+
+* https://bjk5.com/post/44698559168/breaking-down-amazons-mega-dropdown
+
 ## Web beauty
 
 * https://go.pioneer.com/cornrevolution
