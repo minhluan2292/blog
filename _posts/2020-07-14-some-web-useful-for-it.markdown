@@ -12,6 +12,7 @@ tags: [Web, Useful]
 
 * https://www.30secondsofcode.org/
 * https://www.codingame.com/home
+* https://drawastickman.com/episode1
 
 ## Link great post 
 
