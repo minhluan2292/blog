@@ -90,3 +90,6 @@ Khi thực hiện Clone, sẽ tải về toàn bộ nội dung của remote repo
 
 #### Cùng tìm hiểu về Lệnh Git fetch và Git pull
 [Lệnh Git 10] $ git fetch & git pull
+
+### Clone single BRANCH
+git clone --single-branch --branch <branchname> <remote-repo>
