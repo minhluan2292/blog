@@ -6,3 +6,6 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: my-day.jpg  # Add image post (optional)
 ---
 I'm Luan Huynh
+Keywords:
+- Headless Browser
+- puppeteer
