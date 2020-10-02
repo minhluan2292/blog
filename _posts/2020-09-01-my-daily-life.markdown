@@ -9,3 +9,6 @@ I'm Luan Huynh
 Keywords:
 - Headless Browser
 - puppeteer
+- tor-request
+- Scrapy (python)
+- Privoxy
