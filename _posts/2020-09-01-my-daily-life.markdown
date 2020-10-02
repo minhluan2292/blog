@@ -12,3 +12,4 @@ Keywords:
 - tor-request
 - Scrapy (python)
 - Privoxy
+- Goutte
