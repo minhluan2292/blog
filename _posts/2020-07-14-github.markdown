@@ -8,4 +8,4 @@ fig-caption: #### Add figcaption (optional)
 tags: [Github]
 ---
 ### Clone single BRANCH
-git clone --single-branch --branch <branchname> <remote-repo>
+git clone --single-branch --branch "branchname" "remote-repo"
