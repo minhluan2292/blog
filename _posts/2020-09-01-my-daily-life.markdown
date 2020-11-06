@@ -13,3 +13,4 @@ Keywords:
 - Scrapy (python)
 - Privoxy
 - Goutte
+** composer install --ignore-platform-reqs. Ignore platform requirements (php & ext- packages)
