@@ -14,3 +14,4 @@ Keywords:
 - Privoxy
 - Goutte
 ** composer install --ignore-platform-reqs. Ignore platform requirements (php & ext- packages)
+- php artisan migrate --path=/database/migrations/2020_11_11_093924_create_wishlist_groups_table.php
