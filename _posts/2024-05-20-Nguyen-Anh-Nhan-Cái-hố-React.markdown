@@ -38,3 +38,8 @@ Nhân một ngày fix cái app ReactNative cho khách ngồi vá lỗi tới ch�
 Hổ thẹn thay!
 
 ![image](https://github.com/minhluan2292/blog/assets/20589120/84a32f30-0ebb-446b-a3b6-0ade4197e130)
+
+
+Cái câu hỏi làm sao để tự kéo mình ra khỏi vũng lầy, đơn giản lắm. Sau khi dành 3 ngày không ngừng nghỉ code Dart, Golang và try hard một chút về ML, tôi tự dưng thấy mình hết hoài nghi về bản thân.
+Cốt là trước giờ lúc quái nào cũng "quá bận" để làm này, "không đủ thời gian" để làm kia. Nói chung là vấn đề tư tưởng, chỉ có tự thân thay đổi tư tưởng thì mới có tiến bộ được, dù trong hoàn cảnh nào.
+Nói cái này nhiếu với mấy thanh niên trong team mà cũng nom hopeless lắm :))
